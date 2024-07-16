@@ -1,0 +1,49 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #100c0c;
+  overflow-x: hidden;
+  background-image: url(indexbg.jpg);
+  background-repeat: no-repeat center fixed;
+  background-size: 100% 100%;
+  size :auto;
+}
+header {
+  background-color: #bb0606;
+  color: #f5f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar {
+  padding: 0px 0px 20px 0px;
+  size: 100%;
+  background-color: #2f413e;
+}
+
+.navbar a:hover{
+    background-color:#2f413e;
+    color:rgb(17, 12, 12);
+
+}
+
+input[type="search"] {
+  flex-basis: 500px;
+}
+
+
+footer {
+  text-align: center;
+  background-color: #bb0606;
+  color: white;
+  padding: 1.5rem 0;
+  size-adjust: auto center;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+  main {
+      padding: 1.5rem;
+  }
+}
