@@ -19,8 +19,8 @@ function phoneClick(){
 
 }
 var logoclick = document.querySelector(".logo");
-logoclick.addEventListener("click", handleClick);
-function handleClick(){
+logoclick.addEventListener("click", handleClicknew);
+function handleClicknew(){
     window.location.href = "./index.html";
 
 }
