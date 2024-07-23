@@ -1,4 +1,4 @@
-// scripts.js
+
 document.getElementById('reviewForm').addEventListener('submit', function(event) {
     event.preventDefault();
     
