@@ -18,10 +18,5 @@ function phoneClick(){
     window.location.href = "tel:+917888002878";
 
 }
-var logoclick = document.querySelector(".logo");
-logoclick.addEventListener("click", handleClicknew);
-function handleClicknew(){
-    window.location.href = "./index.html";
 
-}
 
